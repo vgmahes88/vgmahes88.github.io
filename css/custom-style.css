@@ -107,8 +107,8 @@ body
 {
 	font-size: 8em;
     font-family: 'DobkinScript';
-    color: #ea0b40;
-    text-shadow: 2px 2px #ea0b40;
+    color: #fff;
+    text-shadow: 2px 2px #fff;
     font-weight: bold;
 }
 .parallax_cont h4
@@ -116,8 +116,6 @@ body
 	font-size:3em;
 	color:#fff;
 	text-transform:uppercase;
-	color: #ea0b40;
-  
 	 font-family: 'Raleway-SemiBold';
 }
 .parallax {
@@ -145,14 +143,29 @@ body
 }
 @media screen and (min-width:650px) and (max-width:1023px)
 {
+	.main_container
+	{
+		width:100%;
+		margin:0px;
+	}
 	
 }
 @media screen and (min-width:1024px) and (max-width:1280px)
 {
+	.main_container
+	{
+		width:100%;
+		margin:0px;
+	}
 	
 }
 @media screen and (min-width:1281px) and (max-width:1366px)
 {
+	.main_container
+	{
+		width:100%;
+		margin:0px;
+	}
 	
 }
 @media screen and (min-width:1367px) and (max-width:1440px)
